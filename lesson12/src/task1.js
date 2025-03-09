@@ -3,7 +3,7 @@ console.log('Start..');
 function delayedPrint(text, mls) {
     setTimeout(
         function () {
-console.log(text)
+  console.log(text)
         },
         mls,
         text,
