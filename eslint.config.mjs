@@ -5,7 +5,7 @@ import pluginJs from '@eslint/js';
 export default [
     {
     // Note: there should be no other properties in this object
-        ignores: ["**/temp.js", "config/*","node_modules/"]
+        ignores: ["**/temp.js", "config/*","node_modules/", ]
     },
     { files: ['**/*.js'], languageOptions: { sourceType: 'commonjs' } },
     { languageOptions: { globals: globals.browser } },
