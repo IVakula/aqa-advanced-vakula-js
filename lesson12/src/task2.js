@@ -5,7 +5,7 @@ const promise1 = fetch('https://jsonplaceholder.typicode.com/todos/1')
         return Promise.resolve(todo);
     })
     .catch((error) => {
-        console.error('Error:', error);
+console.error('Error:', error)
     });
 
 //subtask 2.2
